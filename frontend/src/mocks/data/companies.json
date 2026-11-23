@@ -4,6 +4,7 @@
     "name": "Lumen Harbor Analytics",
     "website": "https://lumen-harbor.example",
     "intro": "A data analytics consultancy that builds forecasting dashboards for mid-sized retailers and logistics firms.",
+    "industry": "Tech",
     "mainFocus": [
       "Data analytics",
       "Supply-chain forecasting",
@@ -126,6 +127,7 @@
     "name": "Brightfern Health",
     "website": "https://brightfern-health.example",
     "intro": "A digital-health startup offering virtual prenatal and postpartum care through employer health plans.",
+    "industry": "Healthcare",
     "mainFocus": [
       "Digital health",
       "Women's health",
@@ -242,6 +244,7 @@
     "name": "Quillstone Legal Tech",
     "website": "https://quillstone.example",
     "intro": "Builds contract-review software for in-house legal teams.",
+    "industry": "Tech",
     "mainFocus": [
       "Legal tech",
       "SaaS",
@@ -333,6 +336,7 @@
     "name": "Marigold Mobility",
     "website": "https://marigold-mobility.example",
     "intro": "Designs electric cargo bikes and fleet software for last-mile delivery.",
+    "industry": "Other",
     "mainFocus": [
       "Electric vehicles",
       "Hardware",
@@ -408,6 +412,7 @@
     "name": "Orchid Ridge Bank",
     "website": "https://orchid-ridge-bank.example",
     "intro": "A regional community bank focused on small-business lending and personal banking.",
+    "industry": "Finance",
     "mainFocus": [
       "Banking",
       "Small-business lending",
@@ -525,6 +530,7 @@
     "name": "Pinecrest Learning",
     "website": "https://pinecrest-learning.example",
     "intro": "An online learning platform for adult career changers, focusing on UX design and data skills.",
+    "industry": "Other",
     "mainFocus": [
       "Education",
       "EdTech",
@@ -614,6 +620,7 @@
     "name": "Saltmarsh Foods Co.",
     "website": "https://saltmarsh-foods.example",
     "intro": "A packaged-food maker producing plant-based snacks sold in grocery chains across the Northeast.",
+    "industry": "Other",
     "mainFocus": [
       "Food and beverage",
       "Manufacturing",
@@ -703,6 +710,7 @@
     "name": "Kestrel Cloudworks",
     "website": "https://kestrel-cloudworks.example",
     "intro": "Provides managed cloud hosting and security monitoring for healthcare and fintech clients.",
+    "industry": "Tech",
     "mainFocus": [
       "Cloud infrastructure",
       "Cybersecurity",
@@ -811,6 +819,7 @@
     "name": "Juniper Atlas Energy",
     "website": "https://juniper-atlas.example",
     "intro": "A community solar developer that plans, finances and runs rooftop and small-farm solar projects across the Mountain West.",
+    "industry": "Finance",
     "mainFocus": [
       "Renewable energy",
       "Community solar",
@@ -884,7 +893,10 @@
       "notes": "Plus 4 weeks of phased return at full pay."
     },
     "userReported": {
-      "salary": null,
+      "salary": {
+        "submissions": 5,
+        "averageAnnualUsd": 49166
+      },
       "promotion": null,
       "diversity": null,
       "maternity": null,
@@ -896,6 +908,7 @@
     "name": "Wrenfield Studios",
     "website": "https://wrenfield.example",
     "intro": "An independent game and interactive-media studio making narrative mobile games and museum installations.",
+    "industry": "Entertainment",
     "mainFocus": [
       "Game development",
       "Interactive media",
@@ -977,5 +990,264 @@
         ]
       }
     }
+  },
+  {
+    "id": "dow",
+    "name": "Dow",
+    "website": "https://www.dow.com",
+    "intro": "A global materials science company making plastics, chemicals and coatings for packaging, infrastructure and consumer goods.",
+    "industry": "Other",
+    "mainFocus": [
+      "Materials science",
+      "Chemicals",
+      "Plastics"
+    ],
+    "location": "Midland, MI",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "contacts": [],
+    "sources": [],
+    "dataCollectedAt": "2026-11-21",
+    "verification": {
+      "status": "unverified",
+      "checkedBy": "human",
+      "checkedAt": null,
+      "confidence": null,
+      "notes": "Figures supplied by the SHIP team for the client demo. Not yet checked against published sources."
+    },
+    "salary": {
+      "averageAnnualUsd": 116000,
+      "rangeUsd": null,
+      "basis": "Average salary",
+      "sourceUrl": ""
+    },
+    "promotion": {
+      "womenPromotionRatePct": null,
+      "womenInManagementPct": 51,
+      "sourceUrl": ""
+    },
+    "womenSupport": {
+      "womenWorkforcePct": 42,
+      "programs": []
+    },
+    "benefits": [
+      "Health insurance",
+      "Mental health support",
+      "Childcare resources",
+      "Flexible work schedules",
+      "Work-from-home options"
+    ],
+    "paidMaternityLeave": {
+      "paidWeeks": 16,
+      "payPercent": null,
+      "notes": "Paid maternity/parental leave."
+    },
+    "userReported": {
+      "salary": null,
+      "promotion": null,
+      "diversity": null,
+      "maternity": null,
+      "benefits": null
+    }
+  },
+  {
+    "id": "etsy",
+    "name": "Etsy",
+    "website": "https://www.etsy.com",
+    "intro": "An online marketplace where independent sellers sell handmade, vintage and craft goods.",
+    "industry": "Tech",
+    "mainFocus": [
+      "E-commerce marketplace",
+      "Online retail"
+    ],
+    "location": "Brooklyn, NY",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "contacts": [],
+    "sources": [],
+    "dataCollectedAt": "2026-11-21",
+    "verification": {
+      "status": "unverified",
+      "checkedBy": "human",
+      "checkedAt": null,
+      "confidence": null,
+      "notes": "Figures supplied by the SHIP team for the client demo. Not yet checked against published sources."
+    },
+    "salary": {
+      "averageAnnualUsd": 184000,
+      "rangeUsd": null,
+      "basis": "Average salary",
+      "sourceUrl": ""
+    },
+    "promotion": {
+      "womenPromotionRatePct": null,
+      "womenInManagementPct": 54.4,
+      "sourceUrl": ""
+    },
+    "womenSupport": {
+      "womenWorkforcePct": 47.8,
+      "programs": []
+    },
+    "benefits": [
+      "Mental health care",
+      "Fertility coverage",
+      "Backup childcare",
+      "Adoption/surrogacy reimbursement"
+    ],
+    "paidMaternityLeave": {
+      "paidWeeks": 26,
+      "payPercent": null,
+      "notes": "Paid maternity/parental leave."
+    },
+    "userReported": {
+      "salary": null,
+      "promotion": null,
+      "diversity": null,
+      "maternity": null,
+      "benefits": null
+    }
+  },
+  {
+    "id": "procter-gamble",
+    "name": "Procter & Gamble (P&G)",
+    "website": "https://us.pg.com",
+    "intro": "A consumer goods company behind household, personal care and health brands sold worldwide.",
+    "industry": "Other",
+    "mainFocus": [
+      "Consumer goods",
+      "Household products",
+      "Personal care"
+    ],
+    "location": "Cincinnati, OH",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "contacts": [],
+    "sources": [],
+    "dataCollectedAt": "2026-11-21",
+    "verification": {
+      "status": "unverified",
+      "checkedBy": "human",
+      "checkedAt": null,
+      "confidence": null,
+      "notes": "Figures supplied by the SHIP team for the client demo. Not yet checked against published sources."
+    },
+    "salary": {
+      "averageAnnualUsd": 103600,
+      "rangeUsd": {
+        "min": 85000,
+        "max": 122200
+      },
+      "basis": "Midpoint of a $85,000-$122,200 salary range",
+      "sourceUrl": ""
+    },
+    "promotion": {
+      "womenPromotionRatePct": null,
+      "womenInManagementPct": 38,
+      "sourceUrl": ""
+    },
+    "womenSupport": {
+      "womenWorkforcePct": 29.7,
+      "programs": []
+    },
+    "benefits": [
+      "Medical",
+      "Dental",
+      "Vision",
+      "Mental health support",
+      "Retirement matching",
+      "Education assistance",
+      "Childcare support"
+    ],
+    "paidMaternityLeave": {
+      "paidWeeks": 16,
+      "payPercent": null,
+      "notes": "Paid maternity/parental leave."
+    },
+    "userReported": {
+      "salary": null,
+      "promotion": null,
+      "diversity": null,
+      "maternity": null,
+      "benefits": null
+    }
+  },
+  {
+    "id": "test",
+    "name": "Test",
+    "website": "https://example.text.com",
+    "intro": "",
+    "industry": "Tech",
+    "mainFocus": [],
+    "location": "District of Columbia (DC)",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "contacts": [],
+    "sources": [],
+    "dataCollectedAt": "2026-10-31",
+    "verification": {
+      "status": "unverified",
+      "checkedBy": "ai",
+      "checkedAt": null,
+      "confidence": null,
+      "notes": "Added by a SHIP member. Not checked yet."
+    },
+    "salary": null,
+    "promotion": null,
+    "womenSupport": null,
+    "benefits": [],
+    "paidMaternityLeave": null,
+    "userReported": {
+      "salary": {
+        "submissions": 2,
+        "averageAnnualUsd": 60000
+      },
+      "promotion": null,
+      "diversity": {
+        "submissions": 1,
+        "womanManagerPct": 0,
+        "womanInCSuitePct": null,
+        "womenOnTeamPct": 40,
+        "feelIncludedPct": null,
+        "fieldCounts": {
+          "womanManagerPct": 1,
+          "womanInCSuitePct": 0,
+          "womenOnTeamPct": 1,
+          "feelIncludedPct": 0
+        }
+      },
+      "maternity": null,
+      "benefits": null
+    },
+    "submissions": [
+      {
+        "id": "sub_mvw4baa4",
+        "authorRefId": "anon_12117g1",
+        "submittedAt": "2026-10-31T08:07:05.164Z",
+        "answers": {
+          "salary": {
+            "role": "Data Analyst",
+            "level": "Entry",
+            "state": "Arkansas (AR)",
+            "annualSalaryUsd": 50000
+          },
+          "womenSupport": {
+            "teamSize": 5,
+            "womenOnTeam": 2,
+            "hasWomanManager": false,
+            "issuesHandledSeriously": "not_sure",
+            "support": [
+              "Return-to-work support after leave"
+            ]
+          },
+          "promotion": null,
+          "benefits": null,
+          "maternity": null
+        }
+      }
+    ]
   }
 ]

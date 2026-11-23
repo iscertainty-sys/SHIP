@@ -1,0 +1,52 @@
+[
+  {
+    "refId": "anon_7f3k2a",
+    "industry": "Tech",
+    "location": "Seattle"
+  },
+  {
+    "refId": "anon_q91mzd",
+    "industry": "Healthcare",
+    "location": "Boston"
+  },
+  {
+    "refId": "anon_c4p8wn",
+    "industry": "Finance",
+    "location": "New York"
+  },
+  {
+    "refId": "anon_h2v6rt",
+    "industry": "Tech",
+    "location": "Austin"
+  },
+  {
+    "refId": "anon_m8x1ke",
+    "industry": "Education",
+    "location": null
+  },
+  {
+    "refId": "anon_r5t0ya",
+    "industry": "Retail",
+    "location": "Chicago"
+  },
+  {
+    "refId": "anon_b3n7lu",
+    "industry": "Consulting",
+    "location": "San Francisco"
+  },
+  {
+    "refId": "anon_t6w2qe",
+    "industry": "Healthcare",
+    "location": "Remote"
+  },
+  {
+    "refId": "anon_z1k9fs",
+    "industry": "Design",
+    "location": "Los Angeles"
+  },
+  {
+    "refId": "anon_p4d8vg",
+    "industry": "Tech",
+    "location": "Denver"
+  }
+]
