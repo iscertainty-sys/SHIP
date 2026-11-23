@@ -17,9 +17,8 @@ import {
   NewPostPage,
   PostDetailPage,
 } from '@/features/discussions';
-import { ConversationListPage, ConversationPage } from '@/features/messages';
 import { ProfilePage } from '@/features/profile';
-import { RedirectIfAuthenticated } from './guards';
+import { RedirectIfAuthenticated, RequireAuth } from './guards';
 import { NotFoundPage } from './NotFoundPage';
 
 /**
@@ -73,11 +72,17 @@ export function AppRoutes() {
           <Route path={routePatterns.login} element={<LoginPage />} />
         </Route>
 
+        {/* A real page, so it has its guard back: RequireAuth (a session) only.
+            /assessment cannot be gated by RequireAssessment without creating
+            a redirect loop. The guard also makes the page wait for the session
+            to load, which it needs to know whether this is a retake. */}
+        <Route element={<RequireAuth />}>
+          <Route path={routePatterns.assessment} element={<AssessmentPage />} />
+        </Route>
+
         {/* Will need: RequireAuth (a session, but not necessarily the
             assessment - /profile must stay reachable so an account is never
-            trapped, and /assessment cannot be gated by RequireAssessment
-            without creating a redirect loop). */}
-        <Route path={routePatterns.assessment} element={<AssessmentPage />} />
+            trapped). */}
         <Route path={routePatterns.profile} element={<ProfilePage />} />
 
         {/* Will need: RequireAuth + RequireAssessment. */}
@@ -91,9 +96,6 @@ export function AppRoutes() {
         <Route path={routePatterns.discussionNew} element={<NewPostPage />} />
         <Route path={routePatterns.discussionDetail} element={<PostDetailPage />} />
         <Route path={routePatterns.discussionEdit} element={<EditPostPage />} />
-
-        <Route path={routePatterns.messages} element={<ConversationListPage />} />
-        <Route path={routePatterns.conversation} element={<ConversationPage />} />
 
         <Route path={routePatterns.notFound} element={<NotFoundPage />} />
       </Route>
